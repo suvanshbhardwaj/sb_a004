@@ -87,3 +87,33 @@ var facebook = {
 };
 
 console.log(facebook.ceo.firstName);
+// Default values
+function orderChickenWith(sideDish) {
+  sideDish = sideDish || "whatever!";
+  console.log("Chicken with " + sideDish);
+}
+
+orderChickenWith("noodles");
+orderChickenWith();
+// Functions are First-Class Data Types
+// Functions ARE objects
+function multiply(x, y) {
+  return x * y;
+}
+multiply.version = "v.1.0.0";
+console.log(multiply.version);
+
+
+// Function factory
+function makeMultiplier(multiplier) {
+  var myFunc = function (x) {
+    return multiplier * x;
+  };
+
+  return myFunc;
+}
+
+var multiplyBy3 = makeMultiplier(3);
+console.log(multiplyBy3(10));
+var doubleAll = makeMultiplier(2);
+console.log(doubleAll(100));
