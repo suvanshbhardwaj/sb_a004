@@ -1,7 +1,7 @@
 function sayHello () {
   var name =
    document.getElementById("name").value;
-   var message = <h2>"Namaste " + name + "_/\_ "</h2>;
+   var message = <h2>"Namaste " + name + ""_/\_ </h2>;
 
   // document
   //   .getElementById("content")
