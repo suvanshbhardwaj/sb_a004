@@ -12,7 +12,7 @@ function sayHello () {
     .getElementById("content")
     .innerHTML = message;
 
-  if (name === "student" &cnt==0 ) {
+  if (name === "student" && cnt==0 ) {
     var title = 
       document
         .querySelector("#title")
