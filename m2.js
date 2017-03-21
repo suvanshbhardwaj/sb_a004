@@ -1,7 +1,7 @@
 function sayHello () {
   var name =
    document.getElementById("name").value;
-   var message = "<h2>Hello " + name + "!</h2>";
+   var message = "<h2>Marks of " + name + "<br> Web Development= 13 <br> Computer Architechure= 12 <br> Python=7  </h2>";
 
   // document
   //   .getElementById("content")
