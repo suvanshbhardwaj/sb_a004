@@ -1,3 +1,4 @@
+// Arrays
 var array = new Array();
 array[0] = "Yaakov";
 array[1] = 2;
@@ -8,11 +9,11 @@ array[3] = {course: " HTML, CSS & JS"};
 
 console.log(array);
 array[2](array[0]);
-console.log(array[10].course);
+console.log(array[3].course);
 
 
 // Short hand array creation
-var names = ["Yaakov", "John", "Joe", "tony", "bunty", "honey" , "jonny", "wom", "nobe", "hemn"];
+var names = ["Yaakov", "John", "Joe"];
 console.log(names);
 
 for (var i = 0; i < names.length; i++) {
